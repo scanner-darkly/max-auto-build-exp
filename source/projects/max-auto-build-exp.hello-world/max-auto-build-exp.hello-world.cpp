@@ -28,7 +28,7 @@ public:
 
 
     // the actual attribute for the message
-    attribute<symbol> greeting { this, "greeting", "hello world",
+    attribute<symbol> greeting { this, "greeting", "hello world sd test",
         description {
             "Greeting to be posted. "
             "The greeting will be posted to the Max console when a bang is received."
