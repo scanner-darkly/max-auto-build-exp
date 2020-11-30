@@ -18,7 +18,7 @@ SCENARIO("object produces correct output") {
         hello_world&              my_object = an_instance;
 
         // check that default attr values are correct
-        REQUIRE((my_object.greeting == symbol("hello world")));
+        REQUIRE((my_object.greeting == symbol("hello world sd test")));
 
         // now proceed to testing various sequences of events
         WHEN("a 'bang' is received") {
